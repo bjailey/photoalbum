@@ -1,4 +1,4 @@
-package uk.co.nbrown.photoalbum.controllers;
+package uk.co.project.photoalbum.controllers;
 
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertFalse;
@@ -19,12 +19,12 @@ import java.util.Optional;
 import org.junit.Before;
 import org.junit.Test;
 
-import uk.co.nbrown.photoalbum.exceptions.KidNotFoundException;
-import uk.co.nbrown.photoalbum.exceptions.PictureNotFoundException;
-import uk.co.nbrown.photoalbum.factories.KidFactory;
-import uk.co.nbrown.photoalbum.models.Kid;
-import uk.co.nbrown.photoalbum.models.Picture;
-import uk.co.nbrown.photoalbum.services.interfaces.KidService;
+import uk.co.project.photoalbum.exceptions.KidNotFoundException;
+import uk.co.project.photoalbum.exceptions.PictureNotFoundException;
+import uk.co.project.photoalbum.factories.KidFactory;
+import uk.co.project.photoalbum.models.Kid;
+import uk.co.project.photoalbum.models.Picture;
+import uk.co.project.photoalbum.services.interfaces.KidService;
 
 public class KidControllerTest {
 

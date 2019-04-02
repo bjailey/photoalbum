@@ -1,4 +1,4 @@
-package uk.co.nbrown.photoalbum.utils;
+package uk.co.project.photoalbum.utils;
 
 import java.util.ArrayList;
 import java.util.List;

@@ -1,4 +1,4 @@
-package uk.co.nbrown.photoalbum.services.impls;
+package uk.co.project.photoalbum.services.impls;
 
 import static org.junit.Assert.assertEquals;
 import static org.mockito.Matchers.any;
@@ -12,8 +12,8 @@ import java.util.Optional;
 import org.junit.Before;
 import org.junit.Test;
 
-import uk.co.nbrown.photoalbum.models.Kid;
-import uk.co.nbrown.photoalbum.repositories.KidRepository;
+import uk.co.project.photoalbum.models.Kid;
+import uk.co.project.photoalbum.repositories.KidRepository;
 
 public class KidServiceImplTest {
 

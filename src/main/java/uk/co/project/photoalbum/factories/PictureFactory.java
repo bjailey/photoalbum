@@ -1,10 +1,10 @@
-package uk.co.nbrown.photoalbum.factories;
+package uk.co.project.photoalbum.factories;
 
 import java.time.LocalDateTime;
 
 import org.springframework.stereotype.Component;
 
-import uk.co.nbrown.photoalbum.models.Picture;
+import uk.co.project.photoalbum.models.Picture;
 
 @Component
 public class PictureFactory {

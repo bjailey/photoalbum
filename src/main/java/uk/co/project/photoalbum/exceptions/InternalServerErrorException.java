@@ -1,4 +1,4 @@
-package uk.co.nbrown.photoalbum.exceptions;
+package uk.co.project.photoalbum.exceptions;
 
 public class InternalServerErrorException extends RuntimeException {
 

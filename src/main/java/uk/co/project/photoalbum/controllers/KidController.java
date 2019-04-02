@@ -1,4 +1,4 @@
-package uk.co.nbrown.photoalbum.controllers;
+package uk.co.project.photoalbum.controllers;
 
 import java.time.LocalDate;
 import java.time.LocalDateTime;
@@ -9,13 +9,13 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.multipart.MultipartFile;
 
-import uk.co.nbrown.photoalbum.exceptions.KidNotFoundException;
-import uk.co.nbrown.photoalbum.exceptions.PictureNotFoundException;
-import uk.co.nbrown.photoalbum.factories.KidFactory;
-import uk.co.nbrown.photoalbum.models.Kid;
-import uk.co.nbrown.photoalbum.models.Picture;
-import uk.co.nbrown.photoalbum.services.interfaces.KidService;
-import uk.co.nbrown.photoalbum.utils.Paginator;
+import uk.co.project.photoalbum.exceptions.KidNotFoundException;
+import uk.co.project.photoalbum.exceptions.PictureNotFoundException;
+import uk.co.project.photoalbum.factories.KidFactory;
+import uk.co.project.photoalbum.models.Kid;
+import uk.co.project.photoalbum.models.Picture;
+import uk.co.project.photoalbum.services.interfaces.KidService;
+import uk.co.project.photoalbum.utils.Paginator;
 
 @Controller
 public class KidController {

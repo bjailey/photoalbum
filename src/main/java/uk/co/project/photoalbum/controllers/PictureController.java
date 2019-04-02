@@ -1,4 +1,4 @@
-package uk.co.nbrown.photoalbum.controllers;
+package uk.co.project.photoalbum.controllers;
 
 import java.io.IOException;
 import java.time.LocalDate;
@@ -10,11 +10,11 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.multipart.MultipartFile;
 
-import uk.co.nbrown.photoalbum.connectors.interfaces.GeocodeConnector;
-import uk.co.nbrown.photoalbum.exceptions.InternalServerErrorException;
-import uk.co.nbrown.photoalbum.factories.PictureFactory;
-import uk.co.nbrown.photoalbum.models.Picture;
-import uk.co.nbrown.photoalbum.services.interfaces.FileService;
+import uk.co.project.photoalbum.connectors.interfaces.GeocodeConnector;
+import uk.co.project.photoalbum.exceptions.InternalServerErrorException;
+import uk.co.project.photoalbum.factories.PictureFactory;
+import uk.co.project.photoalbum.models.Picture;
+import uk.co.project.photoalbum.services.interfaces.FileService;
 
 @Controller
 public class PictureController {

@@ -1,4 +1,4 @@
-package uk.co.nbrown.photoalbum.utils;
+package uk.co.project.photoalbum.utils;
 
 import static org.junit.Assert.assertEquals;
 
@@ -7,7 +7,7 @@ import java.util.List;
 
 import org.junit.Test;
 
-import uk.co.nbrown.photoalbum.models.Picture;
+import uk.co.project.photoalbum.models.Picture;
 
 public class PaginatorTest {
 

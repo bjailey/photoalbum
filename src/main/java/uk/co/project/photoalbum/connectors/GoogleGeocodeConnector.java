@@ -1,4 +1,4 @@
-package uk.co.nbrown.photoalbum.connectors;
+package uk.co.project.photoalbum.connectors;
 
 import java.io.IOException;
 import java.net.HttpURLConnection;
@@ -9,13 +9,13 @@ import java.util.Scanner;
 import org.json.JSONObject;
 import org.springframework.stereotype.Component;
 
-import uk.co.nbrown.photoalbum.connectors.interfaces.GeocodeConnector;
-import uk.co.nbrown.photoalbum.exceptions.InternalServerErrorException;
+import uk.co.project.photoalbum.connectors.interfaces.GeocodeConnector;
+import uk.co.project.photoalbum.exceptions.InternalServerErrorException;
 
 @Component
 public class GoogleGeocodeConnector implements GeocodeConnector {
 
-	private final static String API_KEY = "AIzaSyBdgo7MFAKcIMIxWHMzHmedsY7bOemTrRY";
+	private final static String API_KEY = "not a key";
 	private final static String API_URL_FORMAT = "https://maps.googleapis.com/maps/api/geocode/json?latlng=%s&key=%s";
 	
 	void connect(HttpURLConnection conn) {

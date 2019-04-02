@@ -1,4 +1,4 @@
-package uk.co.nbrown.photoalbum.models;
+package uk.co.project.photoalbum.models;
 
 import java.time.LocalDate;
 import java.util.ArrayList;

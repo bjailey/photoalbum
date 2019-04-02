@@ -1,4 +1,4 @@
-package uk.co.nbrown.photoalbum.services.impls;
+package uk.co.project.photoalbum.services.impls;
 
 import java.io.File;
 import java.io.IOException;
@@ -6,7 +6,7 @@ import java.io.IOException;
 import org.springframework.stereotype.Service;
 import org.springframework.web.multipart.MultipartFile;
 
-import uk.co.nbrown.photoalbum.services.interfaces.FileService;
+import uk.co.project.photoalbum.services.interfaces.FileService;
 
 @Service
 public class FileServiceImpl implements FileService {

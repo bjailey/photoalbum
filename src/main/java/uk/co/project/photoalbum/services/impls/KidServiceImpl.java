@@ -1,13 +1,13 @@
-package uk.co.nbrown.photoalbum.services.impls;
+package uk.co.project.photoalbum.services.impls;
 
 import java.util.Optional;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import uk.co.nbrown.photoalbum.models.Kid;
-import uk.co.nbrown.photoalbum.repositories.KidRepository;
-import uk.co.nbrown.photoalbum.services.interfaces.KidService;
+import uk.co.project.photoalbum.models.Kid;
+import uk.co.project.photoalbum.repositories.KidRepository;
+import uk.co.project.photoalbum.services.interfaces.KidService;
 
 @Service
 public class KidServiceImpl implements KidService {

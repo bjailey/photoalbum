@@ -1,4 +1,4 @@
-package uk.co.nbrown.photoalbum.controllers;
+package uk.co.project.photoalbum.controllers;
 
 import static org.junit.Assert.assertEquals;
 import static org.mockito.Matchers.any;
@@ -19,11 +19,11 @@ import org.junit.Before;
 import org.junit.Test;
 import org.springframework.web.multipart.MultipartFile;
 
-import uk.co.nbrown.photoalbum.connectors.interfaces.GeocodeConnector;
-import uk.co.nbrown.photoalbum.exceptions.InternalServerErrorException;
-import uk.co.nbrown.photoalbum.factories.PictureFactory;
-import uk.co.nbrown.photoalbum.models.Picture;
-import uk.co.nbrown.photoalbum.services.interfaces.FileService;
+import uk.co.project.photoalbum.connectors.interfaces.GeocodeConnector;
+import uk.co.project.photoalbum.exceptions.InternalServerErrorException;
+import uk.co.project.photoalbum.factories.PictureFactory;
+import uk.co.project.photoalbum.models.Picture;
+import uk.co.project.photoalbum.services.interfaces.FileService;
 
 public class PictureControllerTest {
 

@@ -1,4 +1,4 @@
-package uk.co.nbrown.photoalbum.connectors;
+package uk.co.project.photoalbum.connectors;
 
 import static org.junit.Assert.assertEquals;
 import static org.mockito.Matchers.any;
@@ -21,7 +21,7 @@ import org.json.JSONObject;
 import org.junit.Before;
 import org.junit.Test;
 
-import uk.co.nbrown.photoalbum.exceptions.InternalServerErrorException;
+import uk.co.project.photoalbum.exceptions.InternalServerErrorException;
 
 public class GoogleGeocodeConnectorTest {
 

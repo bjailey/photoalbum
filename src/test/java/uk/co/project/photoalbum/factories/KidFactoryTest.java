@@ -1,4 +1,4 @@
-package uk.co.nbrown.photoalbum.factories;
+package uk.co.project.photoalbum.factories;
 
 import static org.junit.Assert.assertEquals;
 
@@ -8,7 +8,7 @@ import java.util.Optional;
 import org.junit.Before;
 import org.junit.Test;
 
-import uk.co.nbrown.photoalbum.models.Kid;
+import uk.co.project.photoalbum.models.Kid;
 
 public class KidFactoryTest {
 	

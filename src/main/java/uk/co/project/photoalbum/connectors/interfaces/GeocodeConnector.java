@@ -1,4 +1,4 @@
-package uk.co.nbrown.photoalbum.connectors.interfaces;
+package uk.co.project.photoalbum.connectors.interfaces;
 
 public interface GeocodeConnector {
 

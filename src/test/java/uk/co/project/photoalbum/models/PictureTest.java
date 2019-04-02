@@ -1,4 +1,4 @@
-package uk.co.nbrown.photoalbum.models;
+package uk.co.project.photoalbum.models;
 
 import static org.junit.Assert.*;
 

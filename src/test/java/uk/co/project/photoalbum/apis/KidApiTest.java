@@ -1,4 +1,4 @@
-package uk.co.nbrown.photoalbum.apis;
+package uk.co.project.photoalbum.apis;
 
 import static org.junit.Assert.assertEquals;
 import static org.mockito.Matchers.any;
@@ -16,12 +16,12 @@ import org.junit.Before;
 import org.junit.Test;
 import org.springframework.web.server.ResponseStatusException;
 
-import uk.co.nbrown.photoalbum.controllers.KidController;
-import uk.co.nbrown.photoalbum.exceptions.InternalServerErrorException;
-import uk.co.nbrown.photoalbum.exceptions.KidNotFoundException;
-import uk.co.nbrown.photoalbum.exceptions.PictureNotFoundException;
-import uk.co.nbrown.photoalbum.models.Kid;
-import uk.co.nbrown.photoalbum.models.Picture;
+import uk.co.project.photoalbum.controllers.KidController;
+import uk.co.project.photoalbum.exceptions.InternalServerErrorException;
+import uk.co.project.photoalbum.exceptions.KidNotFoundException;
+import uk.co.project.photoalbum.exceptions.PictureNotFoundException;
+import uk.co.project.photoalbum.models.Kid;
+import uk.co.project.photoalbum.models.Picture;
 
 public class KidApiTest {
 

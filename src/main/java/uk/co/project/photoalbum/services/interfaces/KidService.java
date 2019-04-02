@@ -1,8 +1,8 @@
-package uk.co.nbrown.photoalbum.services.interfaces;
+package uk.co.project.photoalbum.services.interfaces;
 
 import java.util.Optional;
 
-import uk.co.nbrown.photoalbum.models.Kid;
+import uk.co.project.photoalbum.models.Kid;
 
 public interface KidService {
 

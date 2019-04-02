@@ -1,4 +1,4 @@
-package uk.co.nbrown.photoalbum.services.interfaces;
+package uk.co.project.photoalbum.services.interfaces;
 
 import java.io.IOException;
 
